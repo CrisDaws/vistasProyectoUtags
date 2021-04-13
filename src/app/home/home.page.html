@@ -1,20 +1,31 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-card>
+  <ion-card-header>
+    <ion-card-subtitle style="text-align: center; font-family: 'Courier New', Courier, monospace; font-size: larger;">Viajes Utags</ion-card-subtitle>
+    <ion-card-title style="text-align: center; font-family: 'Courier New', Courier, monospace;">Universidad Tecnologica</ion-card-title>
+  </ion-card-header>
+  <!-- <ion-card-header>
+    <ion-img src="https://i2.wp.com/elceo.com/wp-content/uploads/2018/11/uber_cabify_unsplash-1.jpg?w=1200&ssl=1"></ion-img>
+  </ion-card-header> -->
+  <ion-card>
+    <ion-card-header style="text-align: center;">
+      <ion-card-title style="font-family: 'Courier New', Courier, monospace;">PASAJERO</ion-card-title>
+      <ion-button routerLink="/registro-pasajero" color="success" style="font-family: 'Courier New', Courier, monospace; font-size: medium;" >Registrar</ion-button>
+      <ion-button routerLink="/login-pasajero" style="font-family: 'Courier New', Courier, monospace; font-size: small;">Iniciar Sesion</ion-button>
+    </ion-card-header>
+  </ion-card>
+  <ion-card>
+    <ion-card-header style="text-align: center;">
+      <ion-card-title style="font-family: 'Courier New', Courier, monospace;">CONDUCTOR</ion-card-title>
+      <ion-button routerLink="/registro-conductor" color="success" style="font-family: 'Courier New', Courier, monospace; font-size: medium;" >Registrar</ion-button>
+      <ion-button routerLink="/login-conductor" style="font-family: 'Courier New', Courier, monospace; font-size: small;">Iniciar Sesion</ion-button>
+    </ion-card-header>
+  </ion-card>
+  <ion-card-header style="text-align: center;">
+    <ion-card-subtitle style="text-align: center; font-family: 'Courier New', Courier, monospace;">Viajes Utags</ion-card-subtitle><hr>
+    <a>Sugerencias y Recomendaciones.</a><br>
+    <a>Acerca de.</a>
+  </ion-card-header>
+</ion-card>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
-</ion-content>
+
